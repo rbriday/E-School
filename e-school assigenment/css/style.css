@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+a{
+    text-decoration:none;
+}
+a:hover{
+    text-decoration:none;
+}
+ul,ol{
+    list-style-type:none;
+}
+img{
+    vertical-align: middle;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    background: #F0FFF0;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #222;
+    font-size: 16px;
+    padding: 0 20px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+.sing_in_btn{
+    background: #21B573;
+    border-radius: 33px;
+    padding: 12px 30px;
+    border: none;
+    color: #ffffff;
+}
+#banner_area{
+    background: #F0FFF0;
+    height: 576px;
+}
+#course_item_area{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.course_list_item{
+    background: #F8FFFB;
+    border-radius: 10px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    transition: all linear .3s;
+}
+.course_list_img{
+    padding-bottom: 30px;
+}
+.course_list_img img{
+    width: 30%;
+}
+.corese_list_content h4{
+    font-weight: 500;
+    font-size: 24px;
+}
+.corese_list_content p{
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.course_list_item:hover {
+	background: #fff;
+	box-shadow: 1px 14px 17px 4px #bcb9b9;
+}
+.online-course_head h3{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+}
+.online_course_item .card {
+	border: none;
+	border-radius: 10px;
+	box-shadow: 1px 0px 22px 5px #bcb9b9;
+	margin-bottom: 30px;
+	padding: 20px;
+}
+.card-body {
+    padding:0;
+    padding-top: 30px;
+}
+.card-text {
+	padding-bottom: 15px;
+}
+.card_footer {
+	padding-top: 30px;
+}
+.card_footer p{
+    color: #585859;
+    font-size: 16px;
+}
+.card_footer p i {
+	padding-right: 6px;
+}
+#testimonial_area{
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+.test_area_head h3{
+    font-weight: 700;
+    font-size: 36px;
+    padding-bottom: 40px;
+}
+.testimonial_item{
+    width: 750px;
+    margin: 0 auto;
+}
+.test_item_img img {
+	width: 70%;
+}
+footer{
+    background: #282531;
+    padding-top: 60px;
+}
+.footer_wrp_1 p{
+    color: #fff;
+}
+.footer_wrp_2 h3 {
+	color: #fff;
+	font-weight: 700;
+	font-size: 18px;
+}
+.footer_wrp_2 ul li a{
+    color: #fff;
+	font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+.footer_wrp_2 {
+	padding-bottom: 60px;
+}
+.footer_copy_right p{
+    color:#fff;
+    line-height: 70px;
+    margin: 0 auto;
+    text-align: center;
+}

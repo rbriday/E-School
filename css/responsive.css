@@ -1,0 +1,80 @@
+@media(max-width: 575.98px){
+    .navbar-nav {
+        background: #fafafa;
+        padding: 10px 0px;
+    } 
+    .navbar-light .navbar-brand {
+        width: 170px;
+    }
+    .navbar-light .navbar-nav .nav-item {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    #banner_area {
+        padding-top: 20px;
+    }
+    #course_item_area {
+        margin-top: 264px;
+    }
+    .banner_text h1 {
+        font-size: 25px;
+        padding-right: 0px;
+    }
+    .footer_copy_right p {
+     line-height: 0px; 
+    padding-bottom: 10px;
+}
+}
+@media(min-width: 576px) and (max-width: 767.98px) {
+    .navbar-nav {
+        background: #fafafa;
+        padding: 10px 0px;
+    } 
+     .navbar-light .navbar-brand {
+        width: 170px;
+    }
+    .navbar-light .navbar-nav .nav-item {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .banner_text h1 {
+        font-size: 25px;
+        padding-right: 0px;
+    }
+    #banner_area {
+        background: #F0FFF0;
+        height: 363px;
+    }
+    .footer_copy_right p {
+        line-height: 0px; 
+        padding-bottom: 10px;
+    }
+}
+@media(min-width: 768px) and (max-width: 991.98px) {
+    .navbar-nav {
+        background: #fafafa;
+        padding: 10px 0px;
+    } 
+    .navbar-light .navbar-nav .nav-item {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .banner_text h1 {
+        font-size: 25px;
+        padding-right: 0px;
+    }
+    #banner_area {
+        background: #F0FFF0;
+        height: 363px;
+    }
+}
+@media(min-width: 992px) and (max-width: 1199.98px) {
+    .card_footer p {
+        color: #585859;
+        font-size: 15px;
+    }
+    .banner_text h1 {
+        font-size: 42px;
+        padding-right: 0px;
+    }
+}

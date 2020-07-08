@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+a{
+    text-decoration:none;
+}
+a:hover{
+    text-decoration:none;
+}
+ul,ol{
+    list-style-type:none;
+}
+img{
+    vertical-align: middle;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    background: #F0FFF0;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #222;
+    font-size: 16px;
+    padding: 0 20px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+.sing_in_btn {
+    background: #21B573;
+    border-radius: 33px;
+    padding: 8px 30px;
+    border: none;
+    color: #ffffff;
+}
+.sing_in_btn:hover {
+    color: #fff;
+}
+#banner_area{
+    background: #F0FFF0;
+    height: 450px;
+}
+#course_item_area{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.banner_text h6 {
+    color: red;
+}
+
+.banner_text h2{
+    font-size: 45px;
+    font-weight: 700;
+    padding-right: 60px;
+    padding-bottom: 20px;
+}
+.banner_text p{
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.banner_text span {
+    color: #21B573;
+}
+.course_list_item{
+    background: #F8FFFB;
+    border-radius: 10px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    transition: all linear .3s;
+    height: 300px;
+}
+.course_list_img{
+    padding-bottom: 30px;
+}
+.course_list_img img{
+    width: 30%;
+}
+.corese_list_content h4{
+    font-weight: 500;
+    font-size: 24px;
+}
+.corese_list_content p{
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.course_list_item:hover {
+    background: #fff;
+    box-shadow: 0px 13px 21px 4px rgba(0,0,0,0.08);
+}
+.online-course_head h3{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+}
+.online_course_item .card {
+	border: none;
+	border-radius: 10px;
+	box-shadow: 1px 0px 22px 4px rgba(0,0,0,0.05);
+	margin-bottom: 30px;
+	padding: 20px;
+}
+.card-body {
+    padding:0;
+    padding-top: 30px;
+}
+.card-text {
+	padding-bottom: 15px;
+}
+.card_footer {
+	padding-top: 30px;
+}
+.card_footer p{
+    color: #585859;
+    font-size: 16px;
+}
+.card_footer p i {
+	padding-right: 6px;
+}
+#testimonial_area{
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+.test_area_head h3{
+    font-weight: 700;
+    font-size: 36px;
+    padding-bottom: 40px;
+}
+.testimonial_item {
+    padding-top: 30px;
+}
+
+footer{
+    background: #282531;
+    padding-top: 60px;
+}
+.footer_wrp_1 p{
+    color: #fff;
+}
+.footer_wrp_2 h3 {
+	color: #fff;
+	font-weight: 700;
+	font-size: 18px;
+}
+.footer_wrp_2 ul li a{
+    color: #fff;
+	font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+.footer_wrp_2 {
+	padding-bottom: 60px;
+}
+.footer_copy_right p{
+    color:#fff;
+    line-height: 70px;
+    margin: 0 auto;
+    text-align: center;
+}
